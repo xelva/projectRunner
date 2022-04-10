@@ -1,0 +1,29 @@
+{
+  "name": "06projectrunner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xelva/projectRunner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xelva/projectRunner/issues"
+  },
+  "homepage": "https://github.com/xelva/projectRunner#readme",
+  "bin": {
+    "watchit": "app.js"
+  },
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "chalk": "^4.1.0",
+    "chokidar": "^3.5.3",
+    "lodash.debounce": "^4.0.8"
+  }
+}
